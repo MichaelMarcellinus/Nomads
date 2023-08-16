@@ -9,7 +9,7 @@ class TravelPackageRequest extends FormRequest
     /**
      * Determine if the user is authorized to make this request.
      */
-    public function authorize(): bool
+    public function authorize()
     {
         return true;
     }
@@ -19,7 +19,7 @@ class TravelPackageRequest extends FormRequest
      *
      * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array|string>
      */
-    public function rules(): array
+    public function rules()
     {
         return [
             'title' => 'required|max:255',
@@ -27,7 +27,7 @@ class TravelPackageRequest extends FormRequest
             'about' => 'required',
             'featured_event' => 'required|max:255',
             'language' => 'required|max:255',
-            'food' => 'required|max:255',
+            'foods' => 'required|max:255',
             'departure_date' => 'required|date',
             'duration' => 'required|max:255',
             'type' => 'required|max:255',

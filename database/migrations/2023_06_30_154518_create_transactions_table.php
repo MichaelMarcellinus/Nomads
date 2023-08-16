@@ -17,7 +17,7 @@ return new class extends Migration
             $table->integer('users_id')->nullable();
             $table->integer('additional_visa');
             $table->integer('transaction_total');
-            $table->integer('transaction_status');
+            $table->string('transaction_status');
             //IN_CART, PENDING, SUCCESS, FAILED
             $table->softDeletes();
             $table->timestamps();
