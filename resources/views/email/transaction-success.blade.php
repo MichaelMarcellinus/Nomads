@@ -114,7 +114,7 @@
                           <tbody>
                             <tr>
                               <td style="width:150px;">
-                                <img alt="img" src="{{ url('frontend/images/logo.png') }}" style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="180" height="auto" />
+                                <img alt="Logo Nomads" src="cid:{{ url('frontend/images/logo.png') }}" style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="180" height="auto" />
                               </td>
                             </tr>
                           </tbody>
@@ -170,7 +170,7 @@
                           <tbody>
                             <tr>
                               <td style="width:550px;">
-                                <img alt="" src="{{ url($data->travel_package->galleries[0]->image) }}" style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550" height="auto" />
+                                <img alt="Gambar Tempat Wisata Yang Dituju" src="cid:{{ url($data->travel_package->galleries[0]->image) }}" style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550" height="auto" />
                               </td>
                             </tr>
                           </tbody>
@@ -302,7 +302,7 @@
                         <table cellpadding="0" cellspacing="0" width="100%" border="0" style="color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;border:none;">
                           <tr>
                             <td style="width: 50px">
-                              <img src="{{ url('frontend/images/ic_bahasa.png') }}" width="50px">
+                              <img src="cid:{{ url('frontend/images/ic_bahasa.png') }}" width="50px alt='Icon'>
                             </td>
                             <td style="font-size: 18px; padding-left: 10px; color: #071c4d; font-family: Assistant, Helvetica, Arial, sans-serif"> support@nomads.com <br /> 0812-8769-5486 </td>
                           </tr>
